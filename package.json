@@ -1,12 +1,9 @@
 {
-  "name": "maidenlane-portal",
+  "name": "yarn",
   "version": "0.1.0",
   "description": "instrument portal for integrated commodity settlement",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/maidenlane/portal.git"
-  },
+  "repository": "git://github.com/maidenlane/portal.git",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -25,5 +22,8 @@
     "autoprefixer": "^9.7.2",
     "postcss-loader": "^3.0.0",
     "tailwindcss": "^1.1.4"
-  }
+  },
+  "main": "index.js",
+  "author": "Freight Trust <4074885-freighttrust@users.noreply.gitlab.com>",
+  "license": "MIT"
 }
