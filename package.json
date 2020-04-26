@@ -1,0 +1,29 @@
+{
+  "name": "maidenlane-portal",
+  "version": "0.1.0",
+  "description": "instrument portal for integrated commodity settlement",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maidenlane/portal.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.1.4",
+    "react": "16.12.0",
+    "react-charts": "^2.0.0-beta.6",
+    "react-dom": "16.12.0",
+    "react-number-format": "^4.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.2",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
