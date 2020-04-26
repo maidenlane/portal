@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 
 const Home = () => (
-  <Layout title="Home">
+  <Layout title="Maidenlane Instrument">
     <Introduction />
     <Asd />
     <First />
